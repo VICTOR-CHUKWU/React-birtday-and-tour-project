@@ -1,0 +1,133 @@
+:root{
+    --white: white;
+    --offwhite: whitesmoke;
+    --purple: purple;
+    --lightgray : lightgray;
+    --darkgray : darkgray;
+    --black : rgb(39, 38, 38);
+    --boxshadow: 10px 10px 8px lightgray;
+
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: var(--lightgray);
+    font-size: 1rem;
+
+}
+h1{
+    font-size: 20px;
+    color: var(--black);
+    margin-bottom: 1.5rem;
+}
+h2{
+    font-size: 15px;
+    color: var(--black);  
+    margin-bottom: 0.6rem;
+}
+.container{
+   
+    padding: 2rem;
+    font-size: 15px;
+    text-align: center;
+
+}
+.item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+.item img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    box-shadow: var(--boxshadow);
+}
+.flex-down{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.flex-down h3{
+    margin-bottom: 0px;
+    text-transform: capitalize;
+}
+.main{
+    width: 500px;
+    margin: 3rem auto;
+    background: var(--white);
+    padding: 2rem;
+    box-shadow: 10px 10px 8px darkgray
+
+}
+.btn{
+    padding: 0.5rem;
+    border-radius: 10px;
+    background: var(--darkgray);
+    color: var(--white);
+    font-size: 15px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+.btn:hover{
+   background: var(--lightgray);
+}
+
+.line{
+    margin-top: -1rem;
+    margin-bottom: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80px;
+    height: 3px;
+    background-color: rgb(57, 110, 110);
+}
+.main-tour{
+    width: 500px;
+    margin: 3rem auto;
+    background: var(--white);
+    box-shadow: 10px 10px 8px darkgray
+
+}
+.main-img{
+    width: 100%;
+    height: 300px;
+}
+p{
+    margin: 0.6rem 1rem;
+    font-size: 15px;
+    color: darkcyan;
+    text-align: center;
+}
+.btn-tour{
+    padding: 0.5rem;
+    border-radius: 10px;
+    background: darkcyan;
+    color: var(--white);
+    font-size: 15px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    margin: 1rem auto;
+}
+.main-tour h3{
+    color: rgb(35, 167, 167);
+}
+.main-tour h2{
+    color: rgb(56, 54, 54);
+}
+.btn-inline{
+    border: none;
+    outline: none;
+    color: blue;
+    display: inline;
+    padding: 0;
+    margin: 0;
+    background: none;
+}
